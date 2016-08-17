@@ -1,0 +1,67 @@
+$fy-unit-1: 24px
+$fy-unit-2: 12px
+
+#header,
+.footer
+  color: black
+  line-height: 1
+
+#header
+  .header-main
+    color: black !important
+    .header-title a p
+      color: black
+    .header-info .header-info-item span
+      color: black
+  .menu-mainmenu
+    a
+      color: black
+
+.main
+  .dsidx-map
+    &.dsidx-panel .dsidx-results-widget-map-details
+      display: none !important
+  .dsidx-results-widget
+    div.dsidx-map.dsidx-panel div.dsidx-container
+      height: 250px !important
+  .dsidx-controls
+    display: none !important
+
+.footer
+  .footer-bar
+    background-color: #f50026
+
+.header-title
+  a
+    img
+      max-height: 270px
+    span
+      color: black
+
+.header-info
+  padding-right: 90px
+
+.header-info-item
+  span
+    color: black
+
+.header-topbar
+  padding: 0
+  ul
+    margin: 0
+
+.header-topbar-left
+  ul
+    padding-left: 25px
+    li a
+      color: white
+      font-weight: bold
+
+@media (max-width: 767px)
+  .header-navigation-wrapper
+    &.header-main-title
+      font-size: $fy-unit-2
+      height: $fy-unit-1
+      line-height: $fy-unit-1
+      padding: 0px $fy-unit-2
+      overflow: hidden
